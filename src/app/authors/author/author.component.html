@@ -1,0 +1,19 @@
+<div *ngIf="!selectedAuthor">
+    <h2>Sorry can't find the requested author...</h2>
+  </div>
+  <div *ngIf="selectedAuthor">
+    <h2>Here are details of the Author: {{selectedAuthor.id}}</h2>
+    <div class="row">
+      <div class="col-3">First name: </div>
+      <div class="col-9">{{ selectedAuthor.firstName }}</div>
+    </div>
+    <div class="row">
+      <div class="col-3">Last name: </div>
+      <div class="col-9">{{ selectedAuthor.lastName }}</div>
+    </div>
+    <div class="row">
+        <div class="col-3">Bio: </div>
+        <div class="col-9">{{ selectedAuthor.bioId }}</div>
+      </div>
+  
+  </div>
