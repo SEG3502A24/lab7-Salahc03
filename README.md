@@ -8,3 +8,7 @@
 4. Navigate to the Client Directory and install Dependencies `npm i`
 5. `ng serve` to run application
 
+
+
+https://github.com/user-attachments/assets/8f6104b4-0778-40d3-88e4-e186febaaee3
+
